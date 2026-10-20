@@ -13,3 +13,12 @@ button{font:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}.prim
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 /* Letter-first layout: no gift gallery or gift-opening UI. */
 .letter-screen{padding-top:44px;}.letter-content{margin-bottom:18px;line-height:1.85;}
+.song-section{width:100%;max-width:640px;margin:18px 0 30px;padding:24px 16px 22px;border:1px solid #f2d6e526;border-radius:20px;background:linear-gradient(145deg,#ffffff0b,#ffffff03);box-shadow:0 16px 42px #0a071233}
+.song-section .eyebrow{margin-bottom:8px}
+.song-section h3{font-family:'Amiri','Noto Naskh Arabic',serif;font-size:29px;font-weight:700;color:#f4c7dc;margin:0}
+.song-note{font-size:14px;color:#d9c6df;margin:4px 0 18px}
+.song-frame{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:13px;background:#120d18;border:1px solid #ffffff1c;box-shadow:0 12px 28px #09061055}
+.song-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.song-link{display:inline-block;margin-top:16px;color:#f0c4d8;font-size:14px;text-decoration:none;border-bottom:1px solid #f0c4d866;padding-bottom:3px}
+.song-link:focus-visible{outline:2px solid #f0c4d8;outline-offset:4px}
+@media(max-width:480px){.song-section{padding:20px 12px}.song-section h3{font-size:26px}}
